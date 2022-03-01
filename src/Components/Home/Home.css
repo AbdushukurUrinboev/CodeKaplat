@@ -1,44 +1,4 @@
-.popularCourseText
+body
 {
-margin-top: 73px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-
-color: #19191B;
+    background: rgba(255, 255, 255, 0.02);
 }
-
-.popularCourseButton
-{
-margin-top: -4%;
-margin-left: 80%;
-border: 1px solid #3434FF;
-box-sizing: border-box;
-border-radius: 10px;
-}
-
-.popularCoourseSmallText
-{
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height */
-
-letter-spacing: -0.625263px;
-
-color: #696871;
-}
-
-
-@media screen and (max-width: 480px) {
-    .popularCourseButton
-    {
-        margin-top: 0%;
-        margin-left: 0%;
-    }
-  }

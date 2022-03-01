@@ -37,8 +37,11 @@ export default class MultipleItems extends Component {
       <div className="wrapperForPopularCourses">
       <Container>
       <div>
-        <h2> Multiple items </h2>
+        <h2> Popular Courses </h2>
+
+        <p className="popularCoursesmalTextFirst">The most popular courses our students choose to study</p>
         <Slider {...settings}>
+          <div className="basicWrapper">
           <div className="wrapperForImages">
             <img className="popularCoursesImages" src={img1} alt="There is a image" />
             <p className="popularCourseSmalBoldText">
@@ -55,7 +58,9 @@ export default class MultipleItems extends Component {
                 </span>
             </div>
           </div>
-          <div  className="wrapperForImages">
+          </div>
+          
+          <div  className="wrapperForImages basicWrapper">
           <img className="popularCoursesImages" src={img2} alt="There is a image" />
 
           <p className="popularCourseSmalBoldText">
@@ -72,7 +77,7 @@ export default class MultipleItems extends Component {
                 </span>
             </div>
           </div>
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrapper">
           <img className="popularCoursesImages" src={img3} alt="There is a image" />
           <p className="popularCourseSmalBoldText">
           Landing Page A/B Testing & <br /> Conversion Optimization
@@ -90,7 +95,7 @@ export default class MultipleItems extends Component {
           </div>
 
 
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrapper">
             <img className="popularCoursesImages" src={img1} alt="There is a image" />
             <p className="popularCourseSmalBoldText">
             Brand & Identity Design for <br /> Marketers
@@ -106,7 +111,7 @@ export default class MultipleItems extends Component {
                 </span>
             </div>
           </div>
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrapper">
           <img className="popularCoursesImages" src={img2} alt="There is a image" />
 
           <p className="popularCourseSmalBoldText">
@@ -123,7 +128,7 @@ export default class MultipleItems extends Component {
                 </span>
             </div>
           </div>
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrapper">
           <img className="popularCoursesImages" src={img3} alt="There is a image" />
           <p className="popularCourseSmalBoldText">
           Landing Page A/B Testing & <br /> Conversion Optimization
@@ -140,7 +145,7 @@ export default class MultipleItems extends Component {
             </div>
           </div>
 
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrapper">
             <img className="popularCoursesImages" src={img1} alt="There is a image" />
             <p className="popularCourseSmalBoldText">
             Brand & Identity Design for <br /> Marketers
@@ -156,7 +161,7 @@ export default class MultipleItems extends Component {
                 </span>
             </div>
           </div>
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrapper">
           <img className="popularCoursesImages" src={img2} alt="There is a image" />
 
           <p className="popularCourseSmalBoldText">
@@ -173,7 +178,7 @@ export default class MultipleItems extends Component {
                 </span>
             </div>
           </div>
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrapper">
           <img className="popularCoursesImages" src={img3} alt="There is a image" />
           <p className="popularCourseSmalBoldText">
           Landing Page A/B Testing & <br /> Conversion Optimization

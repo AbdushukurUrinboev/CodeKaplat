@@ -3,6 +3,17 @@
     margin-top: 73px;
 }
 
+.basicWrraper{
+    padding: 5%;
+    padding-left: 2%;
+    margin: 5%;
+    margin-left: 2%;
+    width: 95% !important;
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+border-radius: 20px;
+}
+
 .ourLatestArticleSmallText
 {
     height: 20px;
@@ -117,7 +128,7 @@ line-height: 24px;
 color: #0B0B2C;
 }
 
-.popularCourse45AndMonth
+.ourLatestArticle45AndMonth
 {
     margin-left: 60%;
     margin-top: -9%;
@@ -184,6 +195,10 @@ color: #0B0B2C;
     .wrapperForImages
     {
         margin-left: 25%;
+        margin-top: -5% !important;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.07) !important;
+        border-radius: 20px !important;
     }
   }
 
