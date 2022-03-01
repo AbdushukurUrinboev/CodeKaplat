@@ -34,8 +34,8 @@ export default class MultipleItems extends Component {
     };
 
     return (
-
-        <Container>
+      <div className="wrapperForPopularCourses">
+      <Container>
       <div>
         <h2> Multiple items </h2>
         <Slider {...settings}>
@@ -194,6 +194,7 @@ export default class MultipleItems extends Component {
         </Slider>
       </div>
       </Container>
+      </div>
     );
   }
 }
