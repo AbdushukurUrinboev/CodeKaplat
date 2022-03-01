@@ -1,0 +1,76 @@
+.wrapperForAboutUs
+{
+    margin-top: 105px;
+}
+
+.aboutUsFirst
+{
+width: 100%;
+height: 590px;
+left: 359px;
+top: 2719px;
+
+border-radius: 20px;
+}
+
+.aboutUsAbout
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #19191B;
+
+}
+
+.aboutUsUs
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #3434FF;
+}
+
+.aboutUsSmallText
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+
+color: #696871;
+}
+
+.aboutUsButton
+{
+    margin-top: 40px;
+    width: 211px;
+    height: 60px;
+}
+video
+{
+    margin-left: -40%;
+    /* margin-top: 17%; */
+    border-radius: 20px 20px;
+}
+
+@media screen and (max-width: 480px) {
+    video
+    {
+        width: 400px;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+  }
