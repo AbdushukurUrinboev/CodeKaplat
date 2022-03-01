@@ -17,8 +17,8 @@ function Home() {
             <MultipleItems />
             <Obstecles/>
             <AboutUs />
-            <OurLatestArticle />
             <Apply/>
+            <OurLatestArticle />
             <OurTestimonials />
             <Footer/>
         </div>

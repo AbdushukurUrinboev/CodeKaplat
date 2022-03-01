@@ -4,6 +4,19 @@
   background: #3434FF;
   margin-top: 5%;
 }
+
+.applyLessonsRow
+.applyTextInside
+.socialMediaAll
+{
+  color: white;
+}
+
+.socialMediaAll
+{
+  padding: 25%;
+  padding-top: unset;
+}
 .applyImg{
   width: 143px;
   height: 143px;
@@ -15,7 +28,7 @@
   margin-top: 25%;
 }
 .applyText{
-  text-align: center;
+  text-align: center !important;
   width: 889px;
   height: 106px;
   font-family: Montserrat;
@@ -24,7 +37,7 @@
   font-size: 36px;
   line-height: 53px;
   color: #FFFFFF;
-  margin-left: 21%;
+  margin-left: 10%;
   margin-top: 6%;
 }
 .applyLessonsRow{
