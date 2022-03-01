@@ -10,6 +10,33 @@
     height: 250px !important;
 }
 
+.basicWrapper
+{
+padding: 10%;
+padding-left: 2%;
+margin: 5%;
+width: 95% !important;
+margin-left: 2%;
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07) !important;
+border-radius: 40px !important;
+}
+
+.popularCoursesmalTextFirst
+{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.625263px;
+
+color: #696871;
+}
+
 .popularCourseSmalBoldText
 {
 margin-left: 7%;
@@ -154,7 +181,14 @@ color: #696871;
     .wrapperForImages
     {
         margin-left: 25%;
+        width: 371px;
+        height: 553px;
+        left: 360px;
+        top: 1055px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+
     }
   }
-
-  /* wrapperForImages */

@@ -27,10 +27,13 @@ function AboutUs () {
 
                         <Button className="aboutUsButton" variant="primary" size="lg">Read More</Button>{' '}
 
-                        <video width="574" height="390" border-radius="10" controls >
+                    </Col>
+
+                    <div className="videoTagAboutUs">
+                    <video width="574" height="390" border-radius="10" controls >
                             <source className="videooos" src={videosFirst} type="video/mp4"/>
                         </video>
-                    </Col>
+                    </div>
                 </Row>
                 </Container>
             </div>

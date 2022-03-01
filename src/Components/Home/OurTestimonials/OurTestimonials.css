@@ -1,0 +1,80 @@
+.OurTestimonialWrapper
+{
+    margin-top: 84px;
+    background: #F8FBFF;
+}
+
+.basicTextOurTestimonial
+{
+    padding-top: 90px;
+    margin-top: 90px !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #19191B;
+
+}
+
+.ourTestimonial
+{
+    padding-top: 26px;
+    padding-bottom: 6px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: -0.625263px;
+
+color: #696871;
+}
+
+.ourTestimonialsImage
+{
+    width: 586px;
+    height: 625px;
+    margin-left: -23%;
+
+}
+
+.textForOurTestimonials
+{
+    position: absolute;
+    margin-left: 56%;
+    margin-top: -349px;
+}
+
+.textForOurTestimonials
+{
+background: #FFFFFF;
+box-shadow: 0px 20px 36px rgba(0, 0, 0, 0.04);
+border-radius: 0px 20px 20px 0px;
+padding: 10px;
+}
+
+.starsTestimonials
+{
+    margin-left: 20px;
+}
+
+.arrowTestimonials
+{
+    margin-left: 80%;
+    /* color: white; */
+
+}
+
+.arrowTestimonials:hover{
+    color: #3434FF !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: unset;
+}

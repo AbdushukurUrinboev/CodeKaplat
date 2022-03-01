@@ -43,6 +43,7 @@ export default class OurLatestArticle extends Component {
 
         <p className="ourLatestArticleSmallText">Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
         <Slider {...settings}>
+          <div className="basicWrraper">
           <div className="wrapperForImages">
             <img className="popularCoursesImages" src={img1} alt="There is a image" />
             <p className="ourLatestArticleDate">JULY 4, 2021</p>
@@ -62,12 +63,13 @@ export default class OurLatestArticle extends Component {
                 <div className="beginnerPopularCourse">Admin</div>
                 </Col>
             </Row>                
-            <div className="popularCourse45AndMonth">
+            <div className="ourLatestArticle45AndMonth">
                 <div className="ourLatestArticleMore">Read More</div>
                 </div>
             </div>
           </div>
-          <div  className="wrapperForImages">
+          </div>
+          <div  className="wrapperForImages basicWrraper">
           <img className="popularCoursesImages" src={img2} alt="There is a image" />
 
           <p className="ourLatestArticleDate">DECEMBER 12, 2016</p>
@@ -89,12 +91,12 @@ export default class OurLatestArticle extends Component {
                 <div className="beginnerPopularCourse">Admin</div>
                 </Col>
             </Row>
-                <div className="popularCourse45AndMonth">
+                <div className="ourLatestArticle45AndMonth">
                 <div className="ourLatestArticleMore">Read More</div>
                 </div>
             </div>
           </div>
-          <div className="wrapperForImages">
+          <div className="wrapperForImages basicWrraper">
           <img className="popularCoursesImages" src={img3} alt="There is a image" />
 
           <p className="ourLatestArticleDate">JULY 4, 2021</p>
@@ -115,7 +117,7 @@ export default class OurLatestArticle extends Component {
                 <div className="beginnerPopularCourse">Admin</div>
                 </Col>
             </Row>               
-                <div className="popularCourse45AndMonth">
+                <div className="ourLatestArticle45AndMonth">
                 <div className="ourLatestArticleMore">Read More</div>
                 </div>
             </div>
