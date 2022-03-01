@@ -3,7 +3,10 @@
     margin-top: 84px;
     background: #F8FBFF;
 }
-
+.carousel-item
+{
+    height: 700px !important;
+}
 .basicTextOurTestimonial
 {
     padding-top: 90px;
