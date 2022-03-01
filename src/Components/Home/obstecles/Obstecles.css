@@ -1,0 +1,146 @@
+.obstecles{
+  margin-top: 5%;
+}
+.obsteclesRow{
+  margin-top: 8% !important;
+  margin-left: 17% !important;
+}
+.sadEmojiCol{
+  margin-left: -10%;
+}
+.happyEmojiCol{
+  margin-left: -4%;
+}
+.obsteclesCenterText{
+  height: 64px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px ;
+  line-height: 56px;
+  text-align: center;
+  color: #19191B;
+  text-align: center;
+}
+.obsteclesText{
+  text-align: start;
+  padding-top: 7%;
+  font-size: 20px;
+}
+.textObstecles{
+  margin-left: 11%;
+  margin-top: -9%;
+  font-size: 20px;
+}
+.textObstecles1{
+  margin-left: 11%;
+  margin-top: -9%;
+  font-size: 20px;
+}
+.textObstecles2{
+  margin-left: 11%;
+  margin-top: -9%;
+  font-size: 20px;
+}
+.textObstecles3{
+  margin-left: 11%;
+  margin-top: -9%;
+  font-size: 20px;
+}
+.textObstecles4{
+  margin-left: 11%;
+  margin-top: -9%;
+  font-size: 20px;
+}
+.textObstecles5{
+  margin-left: 11%;
+  margin-top: -9%;
+  font-size: 20px;
+}
+.obsteclesEmoji{
+  width: 60px;
+  height: 80px;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+ /* //////////////////////////////////MEDIIIAAAA///////////////////////////////// */
+    
+ @media screen and (max-width: 1400px){
+
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+@media screen and (max-width: 981px){
+  
+}
+
+@media screen and (max-width: 992px){
+  .obstecles {
+    margin-top: 85%;
+  }
+  .obsteclesCenterText{
+    font-size: 30px;
+  }
+  .sadEmojiCol{
+    margin-top: 35% !important;
+    margin-left: -15%;
+  }
+  .happyEmojiCol{
+    margin-top: 155% !important;
+    margin-left: -100%;
+  }
+
+  .obsteclesText{
+    font-size: 12px;
+  }
+  .textObstecles { 
+    font-size: 12px;
+    margin-left: -31%;
+    margin-top: -18%;
+  }
+  .textObstecles1 { 
+    font-size: 12px;
+    margin-left: -26%;
+    margin-top: -18%;
+  }
+  .textObstecles2 { 
+    font-size: 12px;
+    margin-left: -41%;
+    margin-top: -18%;
+  }
+  .textObstecles3 {
+    font-size: 12px;
+    margin-left: -31%;
+    margin-top: -18%;
+  }
+  .textObstecles4 {
+    margin-left: -27%;
+    margin-top: -17%;
+    font-size: 12px;
+  }
+  .textObstecles5 {
+    margin-left: -42%;
+    margin-top: -17%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  
+}
+
+@media only screen and (max-width: 768px){
+  
+}
+
+@media screen and (max-width: 576px){
+
+}
