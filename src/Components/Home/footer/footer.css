@@ -1,0 +1,195 @@
+.footer{
+  width: 100%;
+  height: 607px;
+  background: #0B0B2C;
+  margin-top: 47px;
+}
+.rowFooter{
+  width: 100.7%;
+  /* background-color: aqua; */
+}
+.footerCol{
+  margin-top: 117px !important;
+}
+.footerText{
+  width: 295px;
+  height: 96px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  text-align: start;
+  margin-top: 10%;
+}
+.headLine{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.footerBtn{
+  width: 122px;
+  height: 32px;
+  color: #FFFFFF;
+  background: #0B0B2C;
+  border-style: none;
+  margin-left: -2%;
+  margin-top: 8%;
+}
+.smNetworkIcon{
+  background: #fff;
+  font-size: 45px;
+  border-radius: 10px;
+}
+.networMargin{
+  margin-left: 3%;
+}
+.footerIcon{
+  width: 224px;
+  height: 44px;
+  margin-top: 8%;
+  display: flex;
+}
+.faceebok{
+  width: 44px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 7px;
+}
+.twitter{
+  width: 44px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  margin-left: 8%;
+}
+.instagram{
+  width: 44px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  margin-left: 7%;
+}
+.tiktok{
+  width: 44px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  margin-left: 9%;
+}
+.iconFooter{
+  margin-top: 20%;
+  margin-left: 22%;
+}
+.iconsFooter{
+  margin-left: -30%;
+}
+.iconFooterTwit{
+  margin-top: 28%;
+}
+.innerLineText{
+  margin-top: 25px;
+}
+.innerLineTextCompany{
+  margin-left: 30%;
+  margin-top: 50px;
+}
+.innerLineFooter{
+  color: #FFFFFF;
+  width: 175px;
+  text-align: start;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+}
+.innerLineFooterCompany{
+  color: #FFFFFF;
+  width: 175px;
+  text-align: start;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: -25%;
+}
+.hrFooter{
+  width: 1050px !important;
+  height: 1px !important;
+  background: rgba(228, 228, 228, 0.15);
+  margin-left: 7%;
+  margin-top: 53px !important;
+}
+.lastTextFooter{
+  text-align: center !important;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-top: 1% !important;
+}
+
+
+
+ /* //////////////////////////////////MEDIIIAAAA///////////////////////////////// */
+    
+ @media screen and (max-width: 1400px){
+
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+@media screen and (max-width: 981px){
+  
+}
+
+@media screen and (max-width: 992px){
+  .footer{
+    width: 100%;
+    height: 1111px;
+    background: #0B0B2C;
+  }
+  .footerCol{
+    margin-top: 10% !important;
+    margin-left: 10% !important;
+  }
+  .footerLogo{
+    margin-left: 10%;
+  }
+  .footerBtn{
+    margin-left: 10%;
+  }
+  .footerSupport{
+    margin-left: 50%;
+  }
+  .footerCompany{
+    margin-top: 140% !important;
+    margin-left: -60%; 
+  }
+  .innerLineFooterCompany{
+    margin-left: 150%;
+    margin-top: -270%;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  
+}
+
+@media only screen and (max-width: 768px){
+  
+}
+
+@media screen and (max-width: 576px){
+
+}

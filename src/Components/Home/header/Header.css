@@ -1,0 +1,314 @@
+.navMain{
+  margin-top: 1%;
+}
+.nav-items{
+  width: 466px;
+  height: 40px;
+  margin-left: 25%;
+}
+
+.applyBtn{
+  width: 122px;
+  height: 50px;
+  background: #3434FF !important;
+  border-radius: 10px !important;
+  margin-left: -15% !important;
+}
+/* .applyBtn:hover{
+  color: #3434FF !important;
+  background: #fff !important;
+  transition: 0.5s;
+} */
+
+.loginBtn{
+  width: 122px;
+  height: 50px;
+  color: #3434FF !important;
+  background: none !important;
+  border: 1px solid #3434FF !important;
+  box-sizing: border-box;
+  border-radius: 10px !important;
+  margin-left: 11% !important;
+}
+/* .loginBtn:hover{
+  background: #3434FF !important;
+  color: #fff !important;
+  transition: 0.5s;
+  background-image: url(../../assets/images/fi-rr-user.svg);
+} */
+
+.navItemText{
+  color: #5D5D63!important;
+  position: static;
+  width: 65px;
+  height: 20px;
+  /* font-family: Montserrat; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.mainPage{
+  height: 710px;
+}
+.mainPageRow{
+  margin-top: 1% !important;
+}
+.mainPageBg{
+  width: 100%;
+  height: 705px !important;
+  background-image: url(../../../assest/Rectangle61553.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainPageText{
+  margin-top: 10% !important;
+}
+.mainPageh2{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 90px;
+  color: #FFFFFF;
+}
+.schoolText{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 90px;
+  color: #FFFFFF;
+}
+.mainPageYellowText{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 90px;  
+  color: gold;
+  margin-left: -1%;
+}
+.pText{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: -0.625263px;
+  color: #FFFFFF;
+  text-align: start !important;
+  margin-top: 3%;
+}
+.learnMoreBtn{
+  width: 211px;
+  height: 60px;
+  color: #fff;
+  background: #3434FF;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 6%;
+}
+
+.mainPageInput{
+  width: 404px !important;
+  height: 500px;
+  margin-left: 16%;
+  margin-top: 10% !important;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+.mainPageInputTitleDiv{
+  width: 292px;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+.mainPageInputTitle{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  color: #0B0B2C;
+}
+.mainPageInputDropdown{
+  width: 351px !important;
+  height: 60px !important;
+  background: #F5F5F5 !important;
+  border-radius: 10px !important;
+  border: 0px solid #F5F5F5 !important;
+  margin-left: 4%;
+  margin-top: 6%;
+}
+.dropdownIcon{
+  margin-left: 81%;
+  margin-top: -24%;
+}
+.inputs{
+  width: 351px;
+  height: 60px;
+  background: #F5F5F5;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 8%;
+  color: #ADADAD;
+}
+.inputs:focus {
+  outline: 4px solid #ced4da;;
+}
+.mainPageInputBtn{
+  width: 351px;
+  height: 60px;
+  background: #3434FF;
+  color: #fff;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 8%;
+}
+
+
+
+
+ /* //////////////////////////////////MEDIIIAAAA///////////////////////////////// */
+    
+@media screen and (max-width: 1400px){
+  .nav-items{
+    margin-left: 20%;
+  }
+  .mainPageInput{
+    margin-left: 60%;
+    margin-top: -43% !important;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .navbarBtn{
+    margin-left: 6% !important;
+  }
+  .nav-items{
+    margin-left: 5%;
+  }
+  .mainPageInput{
+    margin-left: 60%;
+    margin-top: -53% !important;
+  }
+}
+
+@media screen and (max-width: 981px){
+  /* .codingDiv{
+    margin-left: -460% !important;
+  }  
+  .mainPageYellowText{
+    margin-top: -2% !;
+  } */
+}
+
+@media screen and (max-width: 992px){
+  .nav-items{
+    width: 0 !important;
+  }
+  .applyBtn{
+    margin-left: 9.5% !important;
+  }
+  .navbarBtn{
+    margin-top: 25% !important;
+  }
+  .navbar-nav-scroll {
+    max-height: var(--bs-scroll-height,75vh);
+    overflow-y: visible !important;
+  }
+  .mainPageText{
+    margin-left: 30%;
+  }
+  .codingDiv{
+    margin-top: -20%;
+    margin-left: -130%;
+  }
+  .mainPageh2 , .mainPageYellowText, .schoolText{
+    font-size: 47px;
+    margin-left: 50%;
+  }
+  .mainPageYellowText{
+    margin-top: -11%;
+  }
+  .schoolText{
+    margin-top: -11%;
+  }
+  .pText{
+    margin-left: -22%;
+  }
+  .mainPageInput{
+    margin-left: 0%;
+    margin-top: 6% !important;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .navbarBtn{
+    margin-left: 0% !important;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .navbarBtn{
+    margin-left: -5%;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .mainPageInputDropdown {
+    width: 351px !important;
+    height: 60px !important;
+    background: #F5F5F5 !important;
+    border-radius: 10px !important;
+    border: 0px solid #F5F5F5 !important;
+    margin-left: -1%;
+    margin-top: 6%;
+  }
+}
+@media screen and (max-width: 414px){
+  .mainPageInput {
+      margin-left: 1%;
+      margin-top: 6% !important;
+  }
+  .mainPageInputDropdown {
+    width: 351px !important;
+    height: 60px !important;
+    background: #F5F5F5 !important;
+    border-radius: 10px !important;
+    border: 0px solid #F5F5F5 !important;
+    margin-left: 2%;
+    margin-top: 6%;
+  }
+}
+
+@media screen and (max-width: 393px){
+.mainPageInput {
+    margin-left: 0%;
+    margin-top: 6% !important;
+  }
+}
+
+@media screen and (max-width: 390px){
+.mainPageInput {
+    margin-left: 0%;
+    margin-top: 6% !important;
+  }
+  
+  .mainPageInputDropdown{
+    width: 351px !important;
+    height: 60px !important;
+    background: #F5F5F5 !important;
+    border-radius: 10px !important;
+    border: 0px solid #F5F5F5 !important;
+    margin-left: 2%;
+    margin-top: 6%;
+  }
+}

@@ -1,0 +1,78 @@
+.apply{
+  width: 100%;
+  height: 470px;
+  background: #3434FF;
+  margin-top: 5%;
+}
+.applyImg{
+  width: 143px;
+  height: 143px;
+  /* background-image: url('../../../assets/images/Marketing_perspective_matte1.svg'); */
+  margin-left: 43%;
+  margin-top: 5% !important;
+}
+.marketingImg{
+  margin-top: 25%;
+}
+.applyText{
+  text-align: center;
+  width: 889px;
+  height: 106px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #FFFFFF;
+  margin-left: 21%;
+  margin-top: 6%;
+}
+.applyLessonsRow{
+  width: 100%;
+}
+.videoLesson{
+  color: #fff;
+  margin-left: 32%;
+  margin-top: 3%;
+}
+.textLesson{
+  color: #fff;
+  margin-top: -2%;
+  margin-left: 46%;
+}
+.audioLesson{
+  color: #fff;
+  margin-left: 58%;
+  margin-top: -2%;
+}
+
+
+ /* //////////////////////////////////MEDIIIAAAA///////////////////////////////// */
+
+ @media screen and (max-width: 992px) {
+   .marketingImg {
+    margin-top: 25%;
+    margin-left: -65%;
+  }
+  .applyText{
+    width: 240px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 12%;
+  }
+  .videoLesson{
+    color: #fff;
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+  .textLesson{
+    color: #fff;
+    margin-top: 2%;
+    margin-left: -3%;
+  }
+  .audioLesson{
+    color: #fff;
+    margin-left: -1%;
+    margin-top: 3%;
+  }
+}
