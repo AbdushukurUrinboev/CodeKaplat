@@ -1,21 +1,19 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
 import Slider from "react-slick";
-import './cardCarousel.css';
-import img1 from '../../../assest/img1.svg';
-import img2 from '../../../assest/img2.svg';
-import img3 from '../../../assest/img3.svg';
-import { BsReception4 } from 'react-icons/bs';
+import SimpleCard from "../../props";
+import array from "../../dataBase/info";
+import { Container } from "react-bootstrap";
 
 
-export default class MultipleItems extends Component {
+
+export default class SimpleSlider extends Component {
   render() {
     const settings = {
       dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToScroll: 1,
 
       responsive: [
         {
@@ -32,174 +30,106 @@ export default class MultipleItems extends Component {
         }
       ]
     };
-
     return (
-      <div className="wrapperForPopularCourses">
-      <Container>
       <div>
+        <Container>
+        <wrapperForPopularCourses>
         <h2> Popular Courses </h2>
 
-        <p className="popularCoursesmalTextFirst">The most popular courses our students choose to study</p>
+             <p className="popularCoursesmalTextFirst">
+                The most popular courses our students choose to study
+              </p>
         <Slider {...settings}>
-          <div className="basicWrapper">
-          <div className="wrapperForImages">
-            <img className="popularCoursesImages" src={img1} alt="There is a image" />
-            <p className="popularCourseSmalBoldText">
-            Brand & Identity Design for <br /> Marketers
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Beginner</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-          </div>
-          
-          <div  className="wrapperForImages basicWrapper">
-          <img className="popularCoursesImages" src={img2} alt="There is a image" />
-
-          <p className="popularCourseSmalBoldText">
-            Advanced Funnels with <br /> Google Analytics
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Advanced</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-          <div className="wrapperForImages basicWrapper">
-          <img className="popularCoursesImages" src={img3} alt="There is a image" />
-          <p className="popularCourseSmalBoldText">
-          Landing Page A/B Testing & <br /> Conversion Optimization
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Intermediate</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-
-
-          <div className="wrapperForImages basicWrapper">
-            <img className="popularCoursesImages" src={img1} alt="There is a image" />
-            <p className="popularCourseSmalBoldText">
-            Brand & Identity Design for <br /> Marketers
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Beginner</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-          <div className="wrapperForImages basicWrapper">
-          <img className="popularCoursesImages" src={img2} alt="There is a image" />
-
-          <p className="popularCourseSmalBoldText">
-            Advanced Funnels with <br /> Google Analytics
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Advanced</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-          <div className="wrapperForImages basicWrapper">
-          <img className="popularCoursesImages" src={img3} alt="There is a image" />
-          <p className="popularCourseSmalBoldText">
-          Landing Page A/B Testing & <br /> Conversion Optimization
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Intermediate</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-
-          <div className="wrapperForImages basicWrapper">
-            <img className="popularCoursesImages" src={img1} alt="There is a image" />
-            <p className="popularCourseSmalBoldText">
-            Brand & Identity Design for <br /> Marketers
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Beginner</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-          <div className="wrapperForImages basicWrapper">
-          <img className="popularCoursesImages" src={img2} alt="There is a image" />
-
-          <p className="popularCourseSmalBoldText">
-            Advanced Funnels with <br /> Google Analytics
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Advanced</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-          <div className="wrapperForImages basicWrapper">
-          <img className="popularCoursesImages" src={img3} alt="There is a image" />
-          <p className="popularCourseSmalBoldText">
-          Landing Page A/B Testing & <br /> Conversion Optimization
-            </p>
-            <p className="popularCourseSmalText">
-            Lorem ipsum dolor sit amet, consectere <br /> adipiscing elit. Feugiat feugiat congue viverra <br /> facilisis.
-            </p>
-            <hr className="widthForHr" />
-            <div className="rectangleFull">
-                <BsReception4  className="popularCourseSignal"/> <span className="beginnerPopularCourse">Intermediate</span>
-                <span className="popularCourse45AndMonth">
-                    <span className="poularCourse45">$45</span><span className="popularCourseMonth">/ month</span>
-                </span>
-            </div>
-          </div>
-
-          
+        {
+                    array.map((item) => {
+                        return(
+                            <div>
+                                <SimpleCard 
+                                key={item.id}
+                                image={item.image}
+                                title={item.title}
+                                substitle={item.substitle}
+                                bottomIcon={item.bottomIcon}
+                                bottomLevel={item.bottomLevel}
+                                bottomPrice={item.bottomPrice}
+                                bottomDate={item.bottomDate}
+                            />
+                            </div>
+                        )
+                    })
+          }          
         </Slider>
-      </div>
-      </Container>
+        </wrapperForPopularCourses>
+        </Container>
       </div>
     );
   }
 }
+
+
+
+
+
+// import React, { Component } from "react";
+// import { Container, Row, Col } from "react-bootstrap";
+// import Slider from "react-slick";
+// import './cardCarousel.css';
+// // import img1 from '../../../assest/img1.svg';
+// // import img2 from '../../../assest/img2.svg';
+// // import img3 from '../../../assest/img3.svg';
+// // import { BsReception4 } from 'react-icons/bs';
+// import data from "../../dataBase/info.js";
+// import CardProps from "../../props";
+
+// export default class MultipleItems extends Component {
+//   render() {
+//     const settings = {
+//       dots: true,
+//       infinite: true,
+//       speed: 500,
+//       slidesToShow: 3,
+//       slidesToScroll: 3,
+
+
+//     };
+
+//     return (
+//         <div className="wrapperForPopularCourses">
+//             <Container>
+//                 <div>
+    
+//                   <p className="popularCoursesmalTextFirst">
+//                     The most popular courses our students choose to study
+//                   </p>
+//                       <Slider {...settings}>
+//                         {/* <div className="basicWrapper">
+//                           <div> */}
+//                            <Row>
+//                                 {
+//                                   data.map((dataJS) => {
+//                                     return(
+//                                       <div>
+//                                       <CardProps 
+//                                         key={dataJS.key}
+//                                         image={dataJS.image}
+//                                         titleName={dataJS.titleName}
+//                                         titleSmallText={dataJS.titleSmallText}
+//                                         bottomIcon={dataJS.bottomIcon}
+//                                         bottomLevel={dataJS.bottomLevel}
+//                                         bottomPrice={dataJS.bottomPrice}
+//                                         bottomDate={dataJS.bottomDate}
+//                                       />
+//                                       </div>
+//                                     )
+//                                   })
+//                                 }
+//                            </Row>
+//                            {/* </div>
+//                         </div>    */}
+//                       </Slider>
+//                 </div>
+//             </Container>
+//         </div>
+//     );
+//   }
+// }

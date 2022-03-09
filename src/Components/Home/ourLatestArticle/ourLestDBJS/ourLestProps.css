@@ -1,0 +1,212 @@
+.wrapperForPopularCourses
+{
+    margin-top: 73px;
+}
+.popularCourseSmalBoldText
+{
+margin-left: 7%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+
+
+color: #19191B;
+}
+.popularCoursesmalTextFirst
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: -0.625263px;
+
+color: #696871;
+}
+.ourLatestArticleDate
+{
+margin-left: 7%;
+height: 24px;
+left: 20.1%;
+right: 75.47%;
+top: calc(50% - 24px/2 + 1299px);
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+
+
+color: #696871;
+}
+.basicWrapper
+{
+padding: 10%;
+padding-left: 2%;
+margin: 5%;
+width: 95% !important;
+margin-left: 2%;
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07) !important;
+border-radius: 40px !important;
+}
+
+.popularCoursesImages {
+    width: 341
+px
+ !important;
+    height: 248
+px
+ !important;
+    margin-top: -31%;
+}
+
+.rectangleFull
+{
+    margin-left: 10%;
+}
+
+.popularCourseSmalBoldText
+{
+margin-left: 7%;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #19191B;
+}
+
+.popularCourseSmalText
+{
+margin-left: 7%;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #36353a;
+}
+
+.widthForHr
+{
+    width: 90%;
+    margin-left: 7%;
+}
+
+.beginnerPopularCourse2
+{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+margin-left: 35%;
+margin-top: -25%;
+/* identical to box height, or 171% */
+
+
+color: #0B0B2C;
+}
+
+.popularCourse45AndMonth
+{
+    margin-left: 25%;
+}
+
+.poularCourse45
+{
+font-family: Moserratt;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+
+color: #0B0B2C;
+}
+
+.popularCourseMonth2
+{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 12px;
+margin-left: 10%;
+margin-top: 14%;
+
+color: #696871;
+
+}
+
+@media (max-width: 360px) {
+    .widthForHr
+    {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .widthForHr
+    {
+        width: 65% ;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .widthForHr
+    {
+        width: 55%;
+    }
+
+    .popularCourse45AndMonth
+    {
+        margin-left: 20% !important;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .popularCoursesImages
+    {
+        width: 300px !important;
+    }
+  }
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    .widthForHr
+    {
+        width: 35%;
+    }
+
+    .popularCourse45AndMonth
+    {
+        margin-left: 10% !important;
+    }
+
+    .wrapperForImages
+    {
+        margin-left: 25%;
+        width: 371px;
+        height: 553px;
+        left: 360px;
+        top: 1055px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.07) !important;
+        border-radius: 20px !important;
+
+    }
+  }
