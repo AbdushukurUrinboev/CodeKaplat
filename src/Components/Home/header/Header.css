@@ -145,6 +145,7 @@
   border-radius: 10px !important;
   border: 0px solid #F5F5F5 !important;
   margin-top: 6%;
+  margin-left: 13px;
 }
 .dropdownIcon{
   margin-left: 81%;
@@ -157,6 +158,7 @@
   border-radius: 10px;
   border-style: none;
   margin-top: 8%;
+  margin-left: 13px;
   color: #ADADAD;
 }
 .inputs:focus {
@@ -170,6 +172,7 @@
   border-radius: 10px;
   border-style: none;
   margin-top: 8%;
+  margin-left: 13px;
 }
 
 

@@ -1,0 +1,163 @@
+.wrapperForPopularCourses
+{
+    margin-top: 73px;
+}
+
+.basicWrapper
+{
+padding: 10%;
+padding-left: 2%;
+margin: 5%;
+width: 95% !important;
+margin-left: 2%;
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07) !important;
+border-radius: 40px !important;
+}
+
+.popularCoursesImages {
+    width: 341px !important;
+    height: 248px !important;
+    margin-top: -31%;
+}
+
+.rectangleFull
+{
+    margin-left: 10%;
+}
+
+.popularCourseSmalBoldText
+{
+margin-left: 7%;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+color: #19191B;
+}
+
+.popularCourseSmalText
+{
+margin-left: 7%;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+
+color: #36353a;
+}
+
+.widthForHr
+{
+    width: 75%;
+    margin-left: 7%;
+}
+
+.beginnerPopularCourse
+{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+
+color: #0B0B2C;
+}
+
+.popularCourse45AndMonth
+{
+    margin-left: 25%;
+}
+
+.poularCourse45
+{
+font-family: Moserratt;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+
+color: #0B0B2C;
+}
+
+.popularCourseMonth
+{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+
+color: #696871;
+
+}
+
+@media (max-width: 360px) {
+    .widthForHr
+    {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .widthForHr
+    {
+        width: 65% ;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .widthForHr
+    {
+        width: 55%;
+    }
+
+    .popularCourse45AndMonth
+    {
+        margin-left: 20% !important;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .popularCoursesImages
+    {
+        width: 300px !important;
+    }
+  }
+
+  @media (max-width: 768px) and (min-width: 376px) {
+    .widthForHr
+    {
+        width: 35%;
+    }
+
+    .popularCourse45AndMonth
+    {
+        margin-left: 10% !important;
+    }
+
+    .wrapperForImages
+    {
+        margin-left: 25%;
+        width: 371px;
+        height: 553px;
+        left: 360px;
+        top: 1055px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.07) !important;
+        border-radius: 20px !important;
+
+    }
+  }

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col, Button, video } from "react-bootstrap";
 import './aboutUs.css';
+import Aos from "aos";
 
 // image start//
 import aboutUsFirst from '../../../assest/aboutusFirstImg.svg';
@@ -8,9 +9,12 @@ import videosFirst from '../../../assest/aboutUsVideo.mp4'
 
 
 function AboutUs () {
+    useEffect(() => {
+        Aos.init({duration:2000})
+      }, [])
     return (
         <>
-            <div className="wrapperForAboutUs">
+            <div className="wrapperForAboutUs" data-aos="flip-left">
                 <Container>
                 <Row xs={1} md={2}>
                     <Col>

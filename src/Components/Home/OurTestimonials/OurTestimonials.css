@@ -3,6 +3,32 @@
     margin-top: 84px;
     background: #F8FBFF;
 }
+
+.ourTestimonialsInsideOfImageText
+{
+    position: absolute;
+    width: 20% !important;
+    height: 100px !important;
+    color: #19191B;
+    background-color: #FFFFFF;
+    z-index: 5;
+    text-align: center;
+    margin-left: 18%;
+    margin-top: -15%;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active
+{
+    width: 18px;
+    border-radius: 10px;
+    background-color: #3434FF !important;
+    opacity: inherit;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #696871;
+    width: 18px;
+}
 .carousel-item
 {
     height: 700px !important;
@@ -44,6 +70,7 @@ color: #696871;
     width: 586px;
     height: 625px;
     margin-left: -23%;
+    z-index: -2 !important;
 
 }
 

@@ -69,8 +69,8 @@ function Header() {
                                       <option value="3">Three</option>
                                     </Form.Select>
                                     <img src={dropIcon} className="dropdownIcon" alt="" />
-                                    <input type="text" className="inputs " placeholder="  Name" />
-                                    <input type="text" className="inputs" placeholder="  Email" />
+                                    <input type="text" className="inputs " placeholder="Name" />
+                                    <input type="text" className="inputs" placeholder="Email" />
                                     <button className="mainPageInputBtn">Get more info</button>
                                 </div>
                             </div>
